@@ -13,7 +13,6 @@ canvas {
     background-image: url('/assets/46888871-624a3900-ce7f-11e8-808e-99fd90c8a3f4.png');
     background-size: cover;
     background-repeat: no-repeat;
-    /* we will make the end menu overlap the game canvas, so we need here a lower z-index */
     z-index: 1;
 }
 
@@ -22,7 +21,6 @@ canvas {
 }
 
 #end-menu {
-    /* we will toggle then the display of the end-menu */
     display: none;
     margin: 50px auto;
     width: 200px;
